@@ -11,11 +11,6 @@ session_start();
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
-
-<header>
-    <div class="logo" id="logo">
-
-    </div>
     <nav>
         <ul>
             <li><a href="index.php">Home</a></li>
