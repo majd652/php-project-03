@@ -1,3 +1,69 @@
-body{
-    background-color: black;
+body {
+    font-family: Arial, sans-serif;
+    background-color: #15202B;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+.login-box {
+    background: #192734;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.1);
+}
+
+.logo {
+    width: 50px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #38444D;
+    border-radius: 5px;
+    background: #253341;
+    color: white;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background: #1DA1F2;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background: #1991DB;
+}
+
+.forgot-password, .signup-link {
+    display: block;
+    margin-top: 10px;
+    color: #1DA1F2;
+    text-decoration: none;
+}
+
+.forgot-password:hover, .signup-link:hover {
+    text-decoration: underline;
 }
