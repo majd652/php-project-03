@@ -12,14 +12,14 @@
         </div>
         <div class="container">
             <div class="login-box">
-                <h2>Sign in to Twitter</h2>
+                <h2>Sign in to Upost</h2>
                 <form id="login-form" class="login-form">
                     <input type="text" placeholder="Phone, email, or username" required>
                     <input type="password" placeholder="Password" required>
                     <button type="submit">Sign in</button>
                 </form>
                 <a href="#" class="forgot-password">Forgot password?</a>
-                <a href="signup.php" class="signup-link">Sign up for Twitter</a>
+                <a href="signup.php" class="signup-link">Sign up for Upost</a>
             </div>
         </div>
     </body>
