@@ -77,7 +77,7 @@ button:hover {
 }
 
 .content{
-    background: black;
+    background: #050505;
     padding: 50px;
     text-align: center;
     border-radius: 10px;
@@ -124,10 +124,10 @@ button:hover {
     background-color: #0c85d0;
 }
 
-.card{
-    ;
-}
-
 .signupForm{
     margin-right: 15px;
+}
+nav ul *{
+    color: white;
+    text-decoration: none;
 }
