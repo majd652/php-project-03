@@ -11,8 +11,7 @@
     <div class="card">
         <h2>Create your account</h2>
         <form class="signupForm" id="signup-form" action="register-database.php" method="POST">
-            <input class="inputName" type="text" name="username" placeholder="Name" required>
-            <input class="inputMail" type="email" name="email" placeholder="Email" required>
+            <input class="inputName" type="text" name="username" placeholder="username" required>
             <input class="inputPass" type="password" name="wachtwoord" placeholder="Password" required>
             <button type="submit" class="signupButton">Sign Up</button>
         </form>

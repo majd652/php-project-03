@@ -12,5 +12,6 @@ $insert_user->bindParam(":username", $_POST['username']);
 $insert_user->bindParam(":wachtwoord", $hash);
 $insert_user->execute();
 
+header("location: index.php");
 
 
