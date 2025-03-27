@@ -7,5 +7,7 @@
     <input type="password" name="wachtwoord" id="wachtwoord">
     <input type="submit" value="Log nu in">
 </form>
+<a href="#" class="forgot-password">Forgot password?</a>
+<a href="signup.php" class="signup-link">Sign up for Upost</a>
 
 <?php require "partials/footer.php"; ?>

@@ -6,10 +6,9 @@ document.getElementById("fileInput").addEventListener("change", function(event) 
             const preview = document.getElementById("preview");
             preview.src = e.target.result;
             preview.style.display = "block";
-            document.querySelector(".upload-text").style.display = "none"; // إخفاء النص
+            document.querySelector(".upload-text").style.display = "none"; 
         };
         reader.readAsDataURL(file);
     }
 });
-
 

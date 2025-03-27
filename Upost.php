@@ -1,11 +1,10 @@
- <!doctype html>
+<!doctype html>
 <html lang="en">
 <head>
-<div class="container">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>upost</title>
-    <link rel="stylesheet" href="main2.css">
+    <link rel="stylesheet" href="css\main2.css">
  </head>
  <body>
  <label class="image-container" for="fileInput">
