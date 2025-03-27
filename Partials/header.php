@@ -10,7 +10,7 @@
     <ul>
         <li><a href="index.php">Home</a></li>
         <li><a href="register-form.php">Registratie</a></li>
-        <li><a href="login.php">Login</a></li>
+        <li><a href="login-form.php">Login</a></li>
     </ul>
 </nav>
 <main>
