@@ -17,7 +17,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         if ($user && password_verify($password, $user["wachtwoord"])) {
             $_SESSION["user"] = $user["username"];
-            header("Location: Upost.php");
+            header("Location: homepage.php");
             exit();
         } else {
             die("Error: Invalid username or password.");
