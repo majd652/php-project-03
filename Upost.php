@@ -32,7 +32,19 @@
                 <a class="Log_out" href="index.php">Log Out</a>
             </button>
         </div>
+
     </div>
+    </div>
+     <div class="profile-container">
+      <li><a href=""></a>change passowrd or username</li>
+      <li><a href=""></a>change email</li>
+      <li><a href=""></a>help ? contact us </li>
+      <li><a href=""></a>our privacy policy</li>
+      
+</div>
+
+<?php require 'partilas/footer.php'; ?>
+
     <script src="main.js"></script>
 </body>
 </html>
