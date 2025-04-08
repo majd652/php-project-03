@@ -1,3 +1,162 @@
+body{
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: white;
+    font-family: "Arial Nova Cond" ;
+}
+a{
+    text-decoration: none;
+}
+.navlink{
+    color: white;
+    display: flex;
+    justify-content: right;
+}
+.contain{
+   display: flex;
+    height: 100vh;
+}
+.left, .right{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.left{
+    width: 60%;
+    max-width: 500px;
+}
+.right h1 {
+    font-size:5rem ;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+}
+.zin{
+    font-size: 5rem;
+}
+.btn {
+    text-decoration: none;
+    padding: 10px 25px;
+    margin: 40px;
+    border-radius: 30px;
+    font-weight: bold;
+    display: inline-block;
+    transition: background 0.3s;
+    background-color: aqua;
+}
+.secondary{
+    background-color: aqua;
+    border: 2px solid;
+    padding: 10px 25px;
+    margin: 10px;
+    border-radius: 30px;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.content{
+    width: 100%;
+    max-width: 500px;
+    padding: 20px;
+}
+.signupBody{
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+}
+.signupForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around ;
+    padding: 30px;
+
+}
+.inputName{
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 13px;
+}
+.inputPass{
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 13px;
+}
+.signupButton{
+    border-radius: 10px;
+    padding: 10px;
+    background-color: aqua;
+    margin-top: 10px;
+}
+.signToLog{
+    color: aqua;
+}
+.card{
+    background-color: #1a1a1a;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 0 10px rgb(255,255,255,0.1);
+    text-align: center;
+}
+
+
+
+
+.container{
+    width: 100%;
+    max-width: 500px;
+    padding: 20px;
+}
+.loginBody{
+    display: flex;
+    justify-content: center;
+    margin-top: 160px;
+}
+.loginForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around ;
+    padding: 30px;
+
+}
+.userLog{
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 13px;
+}
+.passLog{
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 13px;
+}
+.loginBtn{
+    border-radius: 10px;
+    padding: 10px;
+    background-color: aqua;
+    margin-top: 10px;
+}
+.logToSign{
+    color: aqua;
+}
+.loginBox{
+    background-color: #1a1a1a;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 0 10px rgb(255,255,255,0.1);
+    text-align: center;
+}
+footer {
+    position: absolute;
+    bottom: 20px;
+    font-size: 0.8rem;
+}
+
 .image-container{
     width: 7.5rem;
     height: 7.5rem;
@@ -30,3 +189,11 @@ input[type="file"] {
     justify-content: space-between;
 }
 
+.u{
+    color: aqua;
+}
+.upost{
+    display: flex;
+    flex-direction: row;
+    margin-left: 15px;
+}

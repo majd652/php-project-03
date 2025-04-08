@@ -6,11 +6,11 @@
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-<nav>
+<nav class="navlink" >
     <ul>
-        <li><a href="index.php">Home</a></li>
-        <li><a href="register-form.php">Registratie</a></li>
-        <li><a href="login-form.php">Login</a></li>
+        <a href="index.php">Home</a>
+        <a href="register-form.php">Register</a>
+        <a href="login-form.php">Login</a>
     </ul>
 </nav>
 <main>
