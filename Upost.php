@@ -8,24 +8,24 @@
 </head>
 <body>
     <div class="container">
-        <div>
+        <div class="upload-pic-contanier">
             <label class="image-container" for="fileToUpload">
                 <?php
-               
                 require_once "database/database.php";
-                $stmt = $conn->query("SELECT * FROM images ORDER BY upload_date DESC LIMIT 1");
+                $stmt = $conn->query("SELECT file_name FROM images ORDER BY upload_date DESC LIMIT 1");
                 $image = $stmt->fetch();
-                if ($image) {
+                if ($image && file_exists("uploads/" . $image['file_name'])) {
                     echo '<img src="uploads/' . htmlspecialchars($image['file_name']) . '" alt="Profile Picture" class="profile-image">';
                 } else {
                     echo '<span class="upload-text">profile pic</span>';
                 }
                 ?>
             </label>   
-            <form class="upload-button" action="upload.php" method="post" enctype="multipart/form-data">
+            <form class="upload-button-container" action="upload.php" method="post" enctype="multipart/form-data">
                 <input type="file" name="fileToUpload" id="fileToUpload" accept="image/*">
+                <input type="submit" name="submit" value="Upload Image" class="upload-button">
             </form>
-        </div>
+            </div>
         
         <div class="logout_container">
             <button class="logout_button">
@@ -36,10 +36,10 @@
     </div>
     </div>
      <div class="profile-container">
-      <li><a href=""></a>change passowrd or username</li>
-      <li><a href=""></a>change email</li>
-      <li><a href=""></a>help ? contact us </li>
-      <li><a href=""></a>our privacy policy</li>
+      <li><a href="#">change passowrd or username</a></li>
+      <li><a href="#">help ? contact us</a></li>
+      <li><a href="#">change email</a></li>
+      <li><a href="privacy.php">our privacy policy</a></li>
       
 </div>
 

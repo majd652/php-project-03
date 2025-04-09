@@ -10,9 +10,9 @@
    
 <footer class="footer">
     <div class="footer-buttons">
-        <button onclick="location.href='post.php'" class="footer-btn">Posts</button>
+        <button onclick="location.href='post.php'" class="footer-btn">Post</button>
         <button onclick="location.href='index.php'" class="footer-btn">Home</button>
-        <button onclick="location.href='upost.php'" class="footer-btn">Upload</button>
+        <button onclick="location.href='upost.php'" class="footer-btn">my profile</button>
         <button onclick="location.href='messages.php'" class="footer-btn">Messages</button>
     </div>
 </footer> 
