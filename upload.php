@@ -61,7 +61,7 @@ if(isset($_POST["submit"]) && isset($_FILES["fileToUpload"])) {
                     $stmt = $conn->prepare($sql);
                     $stmt->execute([$fileNameNew, $fileDestination]);
                     
-                    header("Location: Upost.php?upload=success");
+                    header("Location: profile.php?upload=success");
                     exit();
                 } catch(PDOException $e) {
                     die("Database Error: " . $e->getMessage());
@@ -77,3 +77,4 @@ if(isset($_POST["submit"]) && isset($_FILES["fileToUpload"])) {
     die("No file uploaded or form not submitted correctly");
 }
 ?>
+
