@@ -40,9 +40,9 @@ if(isset($_POST["submit"])) {
             $stmt = $conn->prepare($sql);
             $stmt->execute([$fileNameNew]);
             
-            header("Location: Upost.php");
             exit();
         } catch(PDOException $e) {
+            header("Location: Upost.php");
             die("Database Error: " . $e->getMessage());
         }
     } else {
@@ -52,3 +52,4 @@ if(isset($_POST["submit"])) {
     die("No file uploaded or form not submitted correctly");
 }
 ?>
+
