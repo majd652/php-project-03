@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/privacy.css">
 </head>
 <body>
+<button onclick="location.href='Upost.php'" class="go_back" >go back</button>
   <h1>Privacy Policy for Upost</h1>
  <h1>Introduction</h1>
     <p>Welcome to Upost! Your privacy is important to us. This Privacy Policy explains how we collect, use, disclose, and protect your personal information when you use our social media platform.</p>

@@ -42,7 +42,7 @@ if(isset($_POST["submit"])) {
             
             exit();
         } catch(PDOException $e) {
-            header("Location: Upost.php");
+            header("Location: profile.php");
             die("Database Error: " . $e->getMessage());
         }
     } else {
