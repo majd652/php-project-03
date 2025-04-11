@@ -1,4 +1,15 @@
-<?php require "partials/header.php"?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    
+</body>
+</html>
 <div class="contain" >
     <div class="left">
         <img src="uploads/logo.png" alt="a bird logo">
@@ -12,4 +23,4 @@
     </div>
 </div>
 
-<?php require "partials/footer.php" ?>
+

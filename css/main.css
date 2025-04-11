@@ -1,5 +1,5 @@
 body{
-    background-color: black;
+    background-color: black ;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -46,15 +46,18 @@ a{
     border-radius: 30px;
     font-weight: bold;
     display: inline-block;
-    transition: background 0.3s;
-    background-color: aqua;
+    transition:  0.3s;
+    background-color: #78709f;
+    color: white;
+    border: 2px solid;
 }
 .secondary{
-    background-color: aqua;
+    background-color: #78709f;
     border: 2px solid;
     padding: 10px 25px;
     margin: 10px;
     border-radius: 30px;
+    color: white;
 }
 *{
     box-sizing: border-box;
@@ -91,11 +94,11 @@ a{
 .signupButton{
     border-radius: 10px;
     padding: 10px;
-    background-color: aqua;
+    background-color: #78709f;
     margin-top: 10px;
 }
 .signToLog{
-    color: aqua;
+    color: white;
 }
 .card{
     background-color: #1a1a1a;
@@ -138,11 +141,12 @@ a{
 .loginBtn{
     border-radius: 10px;
     padding: 10px;
-    background-color: aqua;
+    background-color:#3f27ac;
     margin-top: 10px;
+    cursor: pointer;
 }
 .logToSign{
-    color: aqua;
+    color:white;
 }
 .loginBox{
     background-color: #1a1a1a;
@@ -190,7 +194,7 @@ input[type="file"] {
 }
 
 .u{
-    color: aqua;
+    color: #6b4ff6;
 }
 .upost{
     display: flex;

@@ -1,25 +1,20 @@
 <?php
-global $conn;
 session_start();
 require "database/database.php";
-
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    if (empty($_POST["username"]) || empty($_POST["password"])) {
+    if (empty($_POST["username"]) || empty($_POST["wachtwoord"])) {
         die("Error: Missing required fields.");
     }
-
     $username = $_POST["username"];
-    $password = $_POST["password"];
-
+    $password = $_POST["wachtwoord"];
     try {
-        $stmt = $conn->prepare("SELECT * FROM account WHERE username = :username");
-        $stmt->bindParam(":username", $username);
-        $stmt->execute();
+        $stmt = $conn->prepare("SELECT * FROM account WHERE username = ?");
+        $stmt->execute([$username]);
         $user = $stmt->fetch();
-
-        if ($user && password_verify($password, $user["password"])) {
+        if ($user && password_verify($password, $user["wachtwoord"])) {
             $_SESSION["user"] = $user["username"];
-            header("Location: upload.php");
+            $_SESSION["user_id"] = $user["id"];
+            header("Location: homepage.php");
             exit();
         } else {
             die("Error: Invalid username or password.");
